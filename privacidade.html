@@ -3,8 +3,9 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Política de Privacidade - DigestAI</title>
+<title>Política de Privacidade e Fontes — DigestAI</title>
 <style>
+  * { box-sizing: border-box; }
   body {
     font-family: -apple-system, Arial, sans-serif;
     max-width: 700px;
@@ -14,48 +15,46 @@
     color: #1a1a1a;
     background: #fff;
   }
-  h1 {
-    color: #1D9E75;
-    border-bottom: 2px solid #1D9E75;
-    padding-bottom: 10px;
-  }
-  h2 {
-    color: #1a1a2e;
-    margin-top: 30px;
-  }
-  .updated {
-    color: #666;
-    font-size: 14px;
-    margin-bottom: 30px;
-  }
-  ul {
-    padding-left: 24px;
-  }
-  .contact {
-    background: #E1F5EE;
-    padding: 16px;
-    border-radius: 8px;
-    margin-top: 30px;
-  }
+  h1 { color: #1D9E75; border-bottom: 2px solid #1D9E75; padding-bottom: 10px; }
+  h2 { color: #1a1a2e; margin-top: 30px; }
+  .updated { color: #666; font-size: 14px; margin-bottom: 30px; }
+  ul { padding-left: 24px; }
+  li { margin-bottom: 8px; }
+  .contact { background: #E1F5EE; padding: 16px; border-radius: 8px; margin-top: 30px; }
+  .source-card { background: #f8f8f8; border-left: 4px solid #1D9E75; padding: 12px 16px; border-radius: 0 8px 8px 0; margin-bottom: 12px; }
+  .source-card h4 { margin: 0 0 4px 0; color: #1a1a2e; font-size: 14px; }
+  .source-card p { margin: 0; font-size: 12px; color: #555; }
+  .source-card a { color: #1D9E75; word-break: break-all; }
+  .disclaimer { background: #FFF3CD; border: 1px solid #FFD700; padding: 16px; border-radius: 8px; margin-top: 20px; font-size: 13px; }
+  nav { background: #1a1a2e; padding: 12px 16px; border-radius: 8px; margin-bottom: 24px; }
+  nav a { color: #5DCAA5; margin-right: 16px; text-decoration: none; font-size: 13px; }
+  nav a:hover { text-decoration: underline; }
 </style>
 </head>
 <body>
-  <h1>Política de Privacidade — DigestAI</h1>
-  <p class="updated">Última atualização: 12 de junho de 2026</p>
 
+  <nav>
+    <a href="#privacidade">Privacidade</a>
+    <a href="#fontes">Fontes Científicas</a>
+    <a href="#contato">Contato</a>
+  </nav>
+
+  <h1>DigestAI — Privacidade e Fontes</h1>
+  <p class="updated">Última atualização: 17 de junho de 2026</p>
+
+  <!-- PRIVACIDADE -->
+  <h2 id="privacidade">Política de Privacidade</h2>
   <p>Esta Política de Privacidade descreve como o aplicativo <strong>DigestAI</strong> coleta, usa e protege as informações dos usuários.</p>
 
   <h2>1. Informações que Coletamos</h2>
-  <p>O DigestAI coleta as seguintes informações, fornecidas diretamente por você dentro do app:</p>
   <ul>
     <li>Fotos de alimentos que você tira para análise nutricional</li>
     <li>Dados de perfil: nome, idade, peso, altura e objetivos de saúde</li>
     <li>Registros de refeições, calorias e nutrientes</li>
-    <li>Registros de digestão e eliminação que você inserir voluntariamente</li>
+    <li>Registros de digestão e eliminação inseridos voluntariamente</li>
   </ul>
 
   <h2>2. Como Usamos as Informações</h2>
-  <p>As informações são usadas exclusivamente para:</p>
   <ul>
     <li>Calcular calorias, macronutrientes e vitaminas das refeições fotografadas</li>
     <li>Acompanhar o progresso digestivo estimado</li>
@@ -64,36 +63,95 @@
   </ul>
 
   <h2>3. Armazenamento de Dados</h2>
-  <p>Todos os dados de perfil, refeições e histórico são armazenados <strong>localmente no dispositivo do usuário</strong>, em um banco de dados local (SQLite). Não enviamos nem armazenamos esses dados em servidores próprios.</p>
+  <p>Todos os dados de perfil, refeições e histórico são armazenados <strong>localmente no dispositivo do usuário</strong> (SQLite). Não enviamos nem armazenamos esses dados em servidores próprios.</p>
 
   <h2>4. Compartilhamento com Terceiros</h2>
-  <p>As fotos de alimentos são enviadas para a <strong>OpenAI</strong> (serviço de inteligência artificial) exclusivamente para identificação dos alimentos e cálculo nutricional. Essas imagens são processadas conforme a <a href="https://openai.com/policies/privacy-policy" target="_blank">Política de Privacidade da OpenAI</a> e não são armazenadas permanentemente por padrão.</p>
+  <p>As fotos de alimentos são enviadas para a <strong>OpenAI</strong> exclusivamente para identificação dos alimentos e cálculo nutricional. Essas imagens são processadas conforme a <a href="https://openai.com/policies/privacy-policy" target="_blank">Política de Privacidade da OpenAI</a>.</p>
   <p>Não vendemos, alugamos ou compartilhamos seus dados pessoais com terceiros para fins de marketing.</p>
 
-  <h2>5. Notificações</h2>
-  <p>O app pode enviar notificações locais sobre o progresso da digestão. Você pode desativar essa função nas Configurações do app a qualquer momento.</p>
-
-  <h2>6. Seus Direitos</h2>
-  <p>Você pode, a qualquer momento:</p>
+  <h2>5. Seus Direitos</h2>
   <ul>
     <li>Excluir refeições e registros diretamente no app</li>
     <li>Desinstalar o app para remover todos os dados armazenados localmente</li>
     <li>Desativar notificações nas configurações</li>
   </ul>
 
-  <h2>7. Crianças e Privacidade</h2>
-  <p>O DigestAI pode ser usado por famílias para acompanhar a saúde digestiva de crianças, sob supervisão de um responsável. Não coletamos intencionalmente dados de identificação pessoal de crianças sem o consentimento dos pais ou responsáveis.</p>
+  <h2>6. Crianças e Privacidade</h2>
+  <p>O DigestAI pode ser usado por famílias sob supervisão de um responsável. Não coletamos intencionalmente dados de crianças sem consentimento dos pais.</p>
 
-  <h2>8. Alterações nesta Política</h2>
-  <p>Esta política pode ser atualizada periodicamente. Recomendamos revisar esta página regularmente.</p>
+  <!-- FONTES CIENTÍFICAS -->
+  <h2 id="fontes">Fontes Científicas e Referências</h2>
 
-  <div class="contact">
+  <p>As informações sobre digestão, tempos de trânsito intestinal, nutrição e saúde presentes no DigestAI são baseadas em fontes científicas reconhecidas. Abaixo estão as principais referências utilizadas:</p>
+
+  <h3>Digestão e Tempo de Trânsito</h3>
+
+  <div class="source-card">
+    <h4>National Institute of Diabetes and Digestive and Kidney Diseases (NIDDK)</h4>
+    <p>Informações sobre o processo digestivo, tempo de trânsito e funcionamento do sistema gastrointestinal.</p>
+    <a href="https://www.niddk.nih.gov/health-information/digestive-diseases" target="_blank">www.niddk.nih.gov/health-information/digestive-diseases</a>
+  </div>
+
+  <div class="source-card">
+    <h4>Mayo Clinic — Digestive System</h4>
+    <p>Referência sobre as etapas da digestão: boca, estômago, intestino delgado, intestino grosso e eliminação.</p>
+    <a href="https://www.mayoclinic.org/digestive-system" target="_blank">www.mayoclinic.org/digestive-system</a>
+  </div>
+
+  <div class="source-card">
+    <h4>Gastroenterology — Journal of the American Gastroenterological Association</h4>
+    <p>Estudos sobre tempo de esvaziamento gástrico (2–5 horas) e trânsito intestinal (24–72 horas).</p>
+    <a href="https://www.gastrojournal.org" target="_blank">www.gastrojournal.org</a>
+  </div>
+
+  <h3>Nutrição e Vitaminas</h3>
+
+  <div class="source-card">
+    <h4>USDA FoodData Central</h4>
+    <p>Base de dados nutricional do Departamento de Agricultura dos EUA, usada como referência para cálculo de nutrientes.</p>
+    <a href="https://fdc.nal.usda.gov" target="_blank">fdc.nal.usda.gov</a>
+  </div>
+
+  <div class="source-card">
+    <h4>World Health Organization (WHO) — Nutrition</h4>
+    <p>Diretrizes sobre ingestão diária recomendada de vitaminas e minerais.</p>
+    <a href="https://www.who.int/health-topics/nutrition" target="_blank">www.who.int/health-topics/nutrition</a>
+  </div>
+
+  <div class="source-card">
+    <h4>National Institutes of Health (NIH) — Office of Dietary Supplements</h4>
+    <p>Referência para doses diárias recomendadas (DRI) de vitaminas A, C, D, B12, ferro, cálcio e outros nutrientes.</p>
+    <a href="https://ods.od.nih.gov" target="_blank">ods.od.nih.gov</a>
+  </div>
+
+  <h3>Escala de Bristol</h3>
+
+  <div class="source-card">
+    <h4>Bristol Stool Scale — Heaton & Lewis (1997)</h4>
+    <p>A classificação de consistência das fezes utilizada no app é baseada na Escala de Bristol, desenvolvida por K.W. Heaton e S.J. Lewis na Universidade de Bristol, Reino Unido.</p>
+    <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1727602/" target="_blank">Publicação original — PubMed Central</a>
+  </div>
+
+  <h3>IMC (Índice de Massa Corporal)</h3>
+
+  <div class="source-card">
+    <h4>World Health Organization (WHO) — BMI Classification</h4>
+    <p>Os limites de IMC utilizados no app (abaixo do peso, normal, sobrepeso, obesidade) seguem a classificação oficial da OMS.</p>
+    <a href="https://www.who.int/news-room/fact-sheets/detail/obesity-and-overweight" target="_blank">www.who.int — Obesity and Overweight</a>
+  </div>
+
+  <div class="disclaimer">
+    ⚠️ <strong>Aviso Importante:</strong> O DigestAI é um aplicativo educacional e de acompanhamento pessoal. As informações fornecidas não constituem aconselhamento médico, diagnóstico ou tratamento. Consulte sempre um médico ou nutricionista qualificado para orientações personalizadas sobre sua saúde.
+  </div>
+
+  <div class="contact" id="contato">
     <h2 style="margin-top:0">Contato</h2>
-    <p>Em caso de dúvidas sobre esta Política de Privacidade, entre em contato:</p>
+    <p>Em caso de dúvidas sobre esta Política de Privacidade ou sobre as fontes científicas:</p>
     <p><strong>E-mail:</strong> keilamurakami@hotmail.com</p>
   </div>
 
   <hr style="margin-top: 40px; border: none; border-top: 1px solid #eee;">
-  <p style="font-size: 12px; color: #999; text-align: center;">DigestAI © 2026</p>
+  <p style="font-size: 12px; color: #999; text-align: center;">DigestAI © 2026 — Keila Cristina Tokuyoshi Murakami</p>
+
 </body>
 </html>
